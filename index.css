@@ -1,0 +1,111 @@
+.one{
+    display:flex;
+    justify-content: center;
+}
+.search {
+    background-image: url('fortune-cookie.png'); 
+    background-size: 50rem 14rem;   
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 40rem;
+    height: 8rem;
+    display:inline-grid;
+    margin: 2rem 3rem;
+    box-shadow: 4px 5px #e04b52
+}
+.two{
+    display:flex;
+    justify-content: left;
+}
+.three{
+    /* display:flex; */
+    float: right;
+    justify-content: right;
+}
+.newObj {
+    background-color:rgb(194, 104, 104);
+    /* color:whitesmoke; */
+
+    background-image: url('fortune-cookie-btn1.png'); 
+    background-size: 25rem auto;   
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 20rem;
+    height: auto;
+    display:inline-grid;
+    margin: 2rem 3rem;
+    box-shadow: 4px 5px #e04b52
+}
+#Zen-head{
+    display: flex;
+    justify-content: center;
+    background: white;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+    animation: changer 5s infinite;
+}
+@keyframes changer {
+    50%{background-color: red;}
+    
+    
+}
+#Zen-head img{
+    height: 7rem;
+    width:auto;
+}
+h1{
+    color: black;
+    text-align:end;
+    font-size: 50px;
+}
+.alpha{
+    color: brown;
+}
+#quote-collection{
+    display: hidden;
+}
+
+ .quotes {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 20rem;
+    height: 3rem;
+    display: inline-grid;
+    margin: 2rem 3rem;
+    box-shadow: 4px 5px #e04b52
+}
+.author {
+    text-align: left;
+    border: grey solid 1px;
+    padding: 2rem;
+    width: 20rem;
+    height: auto;
+    display: inline-grid;
+    margin: 2rem 3rem;
+    box-shadow: 4px 5px #e04b52
+} 
+.submit {
+    position: relative;
+    background-color: #e7222b;
+    border: rgb(0, 0, 0) 4rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    height: 2rem;
+    width: 4.5rem;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: right;
+  }
+  
+  .submit:hover {
+    
+    border: #000000 solid 3px;
+  } 
